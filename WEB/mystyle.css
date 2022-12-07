@@ -1,0 +1,319 @@
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-image: url(./fondo.png);
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img {
+    opacity: 0;
+    cursor:pointer
+}
+
+.none {
+    opacity: 1;
+}
+
+#containerClick {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.fondo {
+    box-sizing: border-box;
+    background-image: url(muñecapro.png);
+    max-width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#loveme {
+    position: absolute;
+    bottom: 10%;
+    left: 25%;
+    width: 30vw;
+}
+
+#noolvidar {
+    position: absolute;
+    width: 33vw;
+    right: 3%;
+    top: 30%;
+}
+
+#drama {
+    position: absolute;
+    width: 20vw;
+    top: 10%;
+    right: 20%;
+}
+
+#ilusionada {
+    position: absolute;
+    width: 20vw;
+    left: 2%;
+    bottom: 45%;
+}
+
+#nuncatriste {
+    position: absolute;
+    width: 30vw;
+    top: 10%;
+    left: 10%;
+}
+
+.pixelart {
+    width: 8vw;
+    transition: width 1s, height 1s, transform 1s;
+}
+
+.pixelart:hover{
+    width: 10vw;
+}
+
+#carta {
+    position: absolute;
+    bottom: 12%;
+    left: 40%;
+}
+
+#cara {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+
+#corazon {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+
+#galle {
+    position: absolute;
+    top: 1%;
+    left: 25%;
+}
+
+#gusano {
+    position: absolute;
+    top: 5%;
+    right: 40%;
+    width: 15vw;
+}
+
+#hongo {
+    position: absolute;
+    bottom: 25%;
+    right: 26%;
+}
+
+#nube {
+    position: absolute;
+    top: 2%;
+    right: 2%;
+}
+
+#jugo {
+    position: absolute;
+    bottom: 2%;
+    right: 30%;
+}
+
+#noche {
+    position: absolute;
+    top: 30%;
+    right: 35%;
+}
+
+#muñeco {
+    position: absolute;
+    left: 52%;
+    bottom: 35%;
+}
+
+#tele {
+    position: absolute;
+    top: 2%;
+    left: 1%;
+}
+
+#corazon {
+    position: absolute;
+    left: 45%;
+    top: 43%;
+}
+
+#yo1 {
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    width: 23vw;
+    transition: width 1s, height 1s, transform 1s;
+}
+
+#yo1:hover{
+    width: 23vw;
+    transform: rotate(360deg);
+}
+
+#yo2 {
+    position: absolute;
+    width: 20vw;
+    bottom: 10%;
+    right: 20%;
+    transition: width 1s, height 1s, transform 1s;
+}
+
+#yo2:hover{
+    width: 23vw;
+    transform: rotate(360deg);
+}
+
+#yo3 {
+    position: absolute;
+    width: 28vw;
+    bottom: 1%;
+    left: 2%;
+    transition: width 1s, height 1s, transform 1s;
+}
+
+#yo3:hover{
+    width: 30vw;
+    transform: rotate(360deg);
+}
+
+#yo4 {
+    position: absolute;
+    width: 20vw;
+    transition: width 1s, height 1s, transform 1s;
+}
+
+#yo4:hover{
+    width: 23vw;
+    transform: rotate(360deg);
+}
+
+#yo5 {
+    position: absolute;
+    width: 12vw;
+    right: 1%;
+    bottom: 30%;
+    transition: width 1s, height 1s, transform 1s;
+}
+
+#yo5:hover{
+    width: 15vw;
+    transform: rotate(360deg);
+}
+
+#yo6 {
+    position: absolute;
+    width: 20vw;
+    left: 45%;
+    bottom: 8%;
+    transition: width 1s, height 1s, transform 1s;
+}
+
+#yo6:hover{
+    width: 23vw;
+    transform: rotate(360deg);
+}
+
+#foto1 {
+    position: absolute;
+    width: 20vw;
+    right: 0%;
+    top: 0%;
+}
+
+#foto2 {
+    position: absolute;
+    width: 20vw;
+    bottom: 20%;
+    left: 20%;
+}
+
+#foto3 {
+    position: absolute;
+    width: 20vw;
+    bottom: 0%;
+    right: 3%;
+}
+
+#foto4 {
+    position: absolute;
+    width: 20vw;
+    right: 15%;
+    top: 23%;
+}
+
+#foto5 {
+    position: absolute;
+    width: 20vw;
+    top: 22%;
+    left: 10%;
+}
+
+#foto6 {
+    position: absolute;
+    width: 15vw;
+    bottom: 1%;
+    right: 50%;
+}
+
+#foto7 {
+    position: absolute;
+    width: 20vw;
+    left: 30%;
+}
+
+#foto8 {
+    position: absolute;
+    width: 20vw;
+    right: 25%;
+    top: 1%;
+}
+
+#trabajo1 {
+    position: absolute;
+    width: 15vw;
+    right: 2%;
+    top: 27%;
+}
+
+#trabajo2 {
+    position: absolute;
+    width: 15vw;
+    top: 40%;
+}
+
+#trabajo3 {
+    position: absolute;
+    width: 7vw;
+    right: 15%;
+    bottom: 33%;
+}
+
+#trabajo4 {
+    position: absolute;
+    width: 10vw;
+    left: 28%;
+    top: 28%;
+}
